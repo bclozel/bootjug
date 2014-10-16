@@ -5,6 +5,8 @@
 *.iws
 out
 
+# Maven
+target
 # Gradle
 .gradle
 build

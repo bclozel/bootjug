@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        springBootVersion = '1.1.6.RELEASE'
+        springBootVersion = '1.1.8.RELEASE'
     }
     repositories {
         mavenCentral()
@@ -16,7 +16,7 @@ apply plugin: 'idea'
 apply plugin: 'spring-boot' 
 
 jar {
-    baseName = 'jug-boot'
+    baseName = 'bootjug'
     version = '0.0.1-SNAPSHOT'
 }
 sourceCompatibility = 1.8
@@ -30,15 +30,15 @@ repositories {
 dependencies {
 	compile("org.springframework.boot:spring-boot-starter-web")
 
-	// TODO: 7) Add "org.springframework.boot:spring-boot-starter-data-mongodb"
+	// 7) Add "org.springframework.boot:spring-boot-starter-data-mongodb"
 
-	// TODO: 11) Add "org.springframework.boot:spring-boot-starter-data-rest"
+	// 11) Add "org.springframework.boot:spring-boot-starter-data-rest"
 
-	// TODO: 13) Add "org.springframework.boot:spring-boot-starter-security"
+	// 13) Add "org.springframework.boot:spring-boot-starter-security"
 
-	// TODO: 17) Add "org.springframework.boot:spring-boot-starter-actuator"
+	// 17) Add "org.springframework.boot:spring-boot-starter-actuator"
 
-	// TODO: 20) Add "org.springframework.boot:spring-boot-starter-remote-shell"
+	// 20) Add "org.springframework.boot:spring-boot-starter-remote-shell"
 
     testCompile("org.springframework.boot:spring-boot-starter-test")
 }
