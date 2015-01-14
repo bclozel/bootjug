@@ -17,5 +17,5 @@ public class Application {
     }
 
 
-	// TODO: 19) Add Health custom health check
+	// TODO: 19) Add Health custom health check with Health.Builder (and a lambda?)
 }
