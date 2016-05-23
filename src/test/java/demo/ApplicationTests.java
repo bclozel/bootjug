@@ -4,16 +4,14 @@ package demo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import org.springframework.boot.test.SpringApplicationConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.test.context.junit4.SpringRunner;
 
-@RunWith(SpringJUnit4ClassRunner.class)
-@SpringApplicationConfiguration(classes = Application.class)
-// TODO: 4) Annotate class to mark web integration test, with randomPort set to true
+@RunWith(SpringRunner.class)
+// TODO: 4) Use @SpringBootTest and ask for the server to be set on a random port
 public class ApplicationTests {
 
 
-	// TODO: 5) Autowire local.server.port with @Value
+	// TODO: 5) Autowire a TestRestTemplate
 
 	@Test
 	public void runAndTestHttpEndpoint() {
